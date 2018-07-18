@@ -1,0 +1,20 @@
+<sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}" data-sly-call="${clientLib.all @ categories=['gsk.dialog.list']}" />
+
+<html>
+<head>
+    <sly data-sly-use.clientlib="${'/libs/granite/sightly/templates/clientlib.html'}" />
+<title>
+Product List Document
+</title>
+<style type="text/css">
+.productList {
+	margin-top: 50px;
+}
+</style>
+</head>
+<body>
+<div class="border-gsk" data-sly-use.search="com.adobe.community.InvokeSlingServlet">
+ ${search.justCall @ context='html'}
+</div>
+</body>
+</html>

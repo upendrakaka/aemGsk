@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/GSK2App">
+        <exclude pattern="/apps/GSK2App/install" />
+    </filter>
+    <filter root="/apps/sling" />
+    <filter root="/etc/designs/GSK2App"/>
+</workspaceFilter>

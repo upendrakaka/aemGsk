@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template"
+    articlecardDescription1="1Lorem ipsum dolor sit amet, sanctus blandit erroribus nec ne ipsum dolor sit ametdolor ipsum then."
+    articlecardDescription2="2Lorem ipsum dolor sit amet, sanctus blandit erroribus nec ne ipsum dolor sit ametdolor ipsum then."
+    articlecardDescription3="3Lorem ipsum dolor sit amet, sanctus blandit erroribus nec ne ipsum dolor sit ametdolor ipsum then."
+    articlecardImage1="/content/dam/GSK/article/artilce1.png"
+    articlecardImage2="/content/dam/GSK/article/artilce2.png"
+    articlecardImage3="/content/dam/GSK/article/artilce3.png"
+    articlecardtagLink1="#"
+    articlecardtagLink2="#"
+    articlecardtagLink3="#"
+    articleCardTileViewType="typeone"
+    articlecardTitle1="HOW TO PREPARE FOR ALLERGY SEASON1"
+    articlecardTitle2="HOW TO PREPARE FOR ALLERGY SEASON2"
+    articlecardTitle3="HOW TO PREPARE FOR ALLERGY SEASON3"
+    articlecardtypeone="[{&quot;articletileImage&quot;:&quot;/content/dam/GSK/article/artilce1.png&quot;\,&quot;articletileTitle&quot;:&quot;1HOW TO PREPARE FOR ALLERGY SEASON&quot;\,&quot;articletileDesc&quot;:&quot;Lorem ipsum dolor sit amet\, sanctus blandit erroribus nec ne ipsum dolor sit ametdolor ipsum then.&quot;}&#xa;,{&quot;articletileImage&quot;:&quot;/content/dam/GSK/article/artilce2.png&quot;\,&quot;articletileTitle&quot;:&quot;2HOW TO PREPARE FOR ALLERGY SEASON&quot;\,&quot;articletileDesc&quot;:&quot;Lorem ipsum dolor sit amet\, sanctus blandit erroribus nec ne ipsum dolor sit ametdolor ipsum then.&quot;}&#xa;,{&quot;articletileImage&quot;:&quot;/content/dam/GSK/article/artilce3.png&quot;\,&quot;articletileTitle&quot;:&quot;3HOW TO PREPARE FOR ALLERGY SEASON&quot;\,&quot;articletileDesc&quot;:&quot;Lorem ipsum dolor sit amet\, sanctus blandit erroribus nec ne ipsum dolor sit ametdolor ipsum then.&quot;}&#xa;,{&quot;articletileImage&quot;:&quot;/content/dam/GSK/article/artilce4.png&quot;\,&quot;articletileTitle&quot;:&quot;4HOW TO PREPARE FOR ALLERGY SEASON&quot;\,&quot;articletileDesc&quot;:&quot;Lorem ipsum dolor sit amet\, sanctus blandit erroribus nec ne ipsum dolor sit ametdolor ipsum then.&quot;}&#xa;]"
+    articletilemainTitle="ALL ABOUT ALLERGIES"
+    artilcecardbuttonLabel1="Read more1"
+    artilcecardbuttonLabel2="Read more2"
+    artilcecardbuttonLabel3="Read more3"
+    artilcecardtagLabel1="Featured / Outdoor Allergies / Seasonal Allergies / Living with Allergies1"
+    artilcecardtagLabel2="Featured / Outdoor Allergies / Seasonal Allergies / Living with Allergies2"
+    artilcecardtagLabel3="Featured / Outdoor Allergies / Seasonal Allergies / Living with Allergies3">
+    <jcr:content
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="jncw/components/content/article-card-tile"/>
+</jcr:root>

@@ -1,0 +1,27 @@
+<sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}" data-sly-call="${clientLib.all @ categories=['gsk.article.list']}" />
+<sly data-sly-use.artcard="com.adobe.articlescard.controller.ArticalesCardController">
+ 
+
+	<div data-sly-use.artcard="com.adobe.articlescard.controller.ArticalesCardController" data-sly-test="${artcard.articalesComponent}" data-sly-list.artlist="${artcard.articalesComponent}">
+
+		<div class="container">
+			<div class="article-section">
+				<h1>${properties.articletilemainTitle @ context='html'}</h1>
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="article-img">
+							<p><img src="${artlist.image @ context='html'}" class="img-responsive" /></p>
+							<p class="article-text">
+								<span class="hdr">${artlist.title @ context='html'}</span>
+								<span class="desc">${artlist.desc @ context='html'}</span>
+							</p>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+
+		</div>
+	</div>
+  </sly>

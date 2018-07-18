@@ -1,0 +1,318 @@
+
+
+
+/* Common Styles */
+body {
+	font-family: Arial,Helvetica,sans-serif;
+}
+ol, ul, li {
+	list-style: none;
+}
+
+/*.navbar-bottom .caret {
+	background: url(../assets/icons/down-arrow-black.png) no-repeat;
+    width: 13px;
+    height: 8px;
+    border: 0;	
+}*/
+
+
+/* Navbar */
+.navbar ul, 
+.navbar ol {
+	margin-bottom: 0;	
+}
+
+/* Navbar Top */
+.navbar-top {
+	background: rgba(213, 209, 206, 0.2);
+	padding: 14px 0;
+}
+.navbar-top em {
+	font-style: inherit;
+	float: right;
+	padding: 2px 0 0 8px;
+}
+.navbar-top a {
+	color: #544f40;
+}
+.navbar-top li {
+    border-right: 1px solid #d5d1ce;
+	display: inline-block;
+	font-size: 12px;
+    height: 17px;
+	padding: 0 15px;
+}
+.navbar-top li:last-child {
+	border-right: 0;
+}
+.navbar-top select {
+	border: 0;
+    background: none;
+}
+
+/* Navbar Middle */
+.navbar-default .navbar-middle .navbar-nav>li>a,
+.navbar-default .navbar-middle .navbar-nav>li>a:hover {
+	color: #544f40;	
+	line-height: 39px;
+    padding: 25px 15px;
+}
+.navbar-middle .navbar-brand {
+	height: 90px;
+	padding: 25px 15px;
+}
+
+/* Navbar Bottom */
+.navbar-default .navbar-bottom .navbar-nav>li>a {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 20px 15px;
+}
+
+.navbar-nav>li>.dropdown-menu li a {
+	padding: 10px 20px;
+}
+.navbar-nav>li>.dropdown-menu li a:hover {
+	color: #f36633;	
+}
+.navbar-bottom .btn-default,
+.navbar-bottom .btn-default:hover {
+	background: none;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 19px 15px;
+}
+.navbar-bottom .open>.dropdown-toggle.btn-default,
+.navbar-bottom .open>.dropdown-toggle.btn-default:hover {
+	background: #fff;
+	border-radius: 0;
+	color: #f36636;
+}
+.navbar-bottom .dropdown .dropdown-toggle .caret {
+	border: 1px solid #fff;
+	border-width: 0 2px 2px 0;
+	display: inline-block;
+	float: right;
+	margin: 4px 0 0 7px;
+	padding: 4px;
+    transform: rotate(45deg);
+}
+.navbar-bottom .dropdown.open .dropdown-toggle .caret,
+.dropdown-menu .dropdown-submenu a:hover .caret {
+	border-color: #f36636
+}
+.dropdown-menu {
+	min-width: 200px;
+}
+.dropdown-menu .dropdown-submenu .caret {
+	border: 1px solid #333;
+	border-width: 0 2px 2px 0;
+	display: inline-block;
+	float: right;
+	margin: 5px 0 0 7px;
+	padding: 4px;
+    transform: rotate(315deg);
+}
+
+
+
+/* Mega Menu */
+.megaMenu .nav,
+.megaMenu .collapse,
+.megaMenu .dropup,
+.megaMenu .dropdown {
+  position: static;
+}
+.megaMenu .container {
+  position: relative;
+}
+.megaMenu .dropdown-menu {
+  left: auto;
+}
+.megaMenu .megaMenu-content {
+  padding: 20px 30px;
+}
+.megaMenu .dropdown.megaMenu-fw .dropdown-menu {
+  left: 0;
+  right: 0;
+}
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+/* Bootstrap Overrides Styles */
+
+/* Nav bar changes */
+.navbar-default {
+    background-color: none;
+    border-color: none;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+.navbar-collapse {
+	background-color: #f36636;
+    border-color: #f36636;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: #fff;
+}
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover {
+	background-color: #fff;
+    border-color: #fff;
+	color: #f36636;
+}
+
+.dropdown-menu {
+	border: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	color: #544f40;
+	font-size: 14px;
+}
+
+
+@media screen and (max-width: 767px) {
+	.mobile-menu li {
+		border-bottom: 1px solid #f1f1f1;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.mobile-menu li.active {
+		border-left: 3px solid #f36633;
+	}
+	.mobile-menu li.active a {
+		color: #f36633 !important;
+		font-weight: bold !important;
+	}
+	.mobile-menu li.active a .caret {
+		border-color: #f36633;
+	}
+	.mobile-menu li a .caret {
+		border: 1px solid #544f40;
+		border-width: 0 2px 2px 0;
+		/* display: inline-block; */
+		float: left;
+		margin: 5px 5px 0 17px;
+		padding: 4px;
+		transform: rotate(315deg);
+	}
+	.menu-header {
+		background: #f36633;
+		display: flex !important;
+		margin: -7.5px -15px 0;
+		padding: 17px 0;
+	}
+	.menu-header span {
+		color: #fff;
+		display: inline-flex;
+		width: calc(100%);
+	}
+	.menu-header a {
+		color: #fff;
+	}
+	.menu-header .menu-left .caret {
+		border: 1px solid #fff;
+		border-width: 0 2px 2px 0;
+		/* display: inline-block; */
+		float: left;
+		margin: 5px 5px 0 17px;
+		padding: 4px;
+		transform: rotate(135deg);
+	}
+	.menu-middle i {
+		font-style: inherit;
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+		width: 100%;
+	}
+	.menu-right a {
+		padding-right: 15px;
+		text-align: right;
+		width: 100%;
+	}
+	.mobile-menu {
+		margin: 7.5px -15px;
+	}
+	.navbar-default .navbar-toggle:focus, 
+	.navbar-default .navbar-toggle:hover {
+		background-color: transparent;
+	}
+	.navbar-default .navbar-toggle {
+		border-color: transparent;
+	}
+	.navbar-toggle {
+		float: left;
+		margin: 10px 0 0 0;
+		padding: 9px 15px;
+		width: 15%;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #544f40;
+	}
+	.navbar-toggle .icon-bar {
+		display: block;
+		width: 30px;
+		height: 3px;
+		border-radius: 1px;
+		margin-bottom: 5px;
+	}
+	.navbar-middle .navbar-brand {
+		height: 60px;
+		padding: 10px 0;
+		width: 70%;
+	}
+	.navbar-brand>img {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.navbar-fixed-top .navbar-collapse {
+		height: 100vh;
+		max-height: inherit !important;
+		position: absolute;
+		width: 100%;
+	}
+	.navbar-right {
+		float: right;
+		margin: 20px 15px;
+	}
+	.navbar-collapse {
+		background-color: rgba(213, 209, 206, 0.2);
+	}
+	.navbar-default .navbar-nav>li>a,
+	.navbar-default .navbar-bottom .navbar-nav>li>a {
+		color: #544f40;
+		display: inline-block;
+		font-size: 15px;
+		font-weight: normal;
+		line-height: inherit;
+		padding: 15px 15px;
+		vertical-align: bottom;
+		width: 100%;
+	}
+	.navbar-nav>li>a span {
+		float: left;
+	}
+	.navbar-nav>li>a .caret {
+		float: right;
+	}
+	.navbar-default .navbar-nav>.active>a,
+	.navbar-default .navbar-nav>.active>a:hover {
+		background-color: transparent;
+	}
+}

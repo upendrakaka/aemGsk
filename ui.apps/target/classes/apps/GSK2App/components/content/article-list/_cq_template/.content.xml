@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template"
+    articleCardTileViewType="typeone"
+    articlecardtypeone="[{&quot;articletileImage&quot;:&quot;/content/dam/GSK/images/article-listing1.png&quot;\,&quot;articletileTitle&quot;:&quot;A.HOW TO PREPARE FOR ALLERGY SEASON&quot;\,&quot;articletileDesc&quot;:&quot;Seasonal allergies have a way of creeping up on you\, making you feel less than your usual\, productive self. .&quot;}&#xa;,{&quot;articletileImage&quot;:&quot;/content/dam/GSK/images/article-listing2.png&quot;\,&quot;articletileTitle&quot;:&quot;B.HOW TO PREPARE FOR ALLERGY SEASON&quot;\,&quot;articletileDesc&quot;:&quot;Seasonal allergies have a way of creeping up on you\, making you feel less than your usual\, productive self. .&quot;}&#xa;,{&quot;articletileImage&quot;:&quot;/content/dam/GSK/images/article-listing3.png&quot;\,&quot;articletileTitle&quot;:&quot;C.HOW TO PREPARE FOR ALLERGY SEASON&quot;\,&quot;articletileDesc&quot;:&quot;Seasonal allergies have a way of creeping up on you\, making you feel less than your usual\, productive self. .&quot;}&#xa;,{&quot;articletileImage&quot;:&quot;/content/dam/GSK/images/article-listing4.png&quot;\,&quot;articletileTitle&quot;:&quot;D.HOW TO PREPARE FOR ALLERGY SEASON&quot;\,&quot;articletileDesc&quot;:&quot;Seasonal allergies have a way of creeping up on you\, making you feel less than your usual\, productive self. .&quot;}&#xa;]"
+    articletilemainTitle="CHILDREN'S FLONASE® SENSIMIST™">
+    <jcr:content
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="GSK2App/components/content/article-card-tile_gsk"/>
+</jcr:root>

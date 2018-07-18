@@ -1,0 +1,188 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientlib.all @ categories='gsk_dialog_footer'}" />
+<style>
+		.follow_cont .follow{ 
+			color:${properties.fontcolorfollowus @ content='styleToken'};
+    		background:${properties.bgcolorfollowus @ content='styleToken'};
+    }
+    .signup {
+		color:${properties.fontcolorsignup @ content='styleToken'};
+
+        }
+
+</style>
+<section class="container-fluid">
+	<footer>
+		<div class="signup">
+			<form>
+				<label>${properties.textsignup @ content='styleToken'}</label>
+				<input type="text" placeholder="Please enter email address" />
+				<button type="button" class="btn-structure btn-primary-orange">${properties.btnfonttxtsignup @ content='styleToken'}</button>
+			</form>
+		</div>
+		<div class="follow">
+			<div class="follow-cont">
+				<label>${properties.lblfollowustxt @ content='url'}</label>
+				<span class="follow-icons">
+					<a href="#">
+						<img src="${properties.facebookimgview @ content='uri'}" />
+					</a>
+					<a href="#">
+						<img src="${properties.twitterimgview @ content='uri'}" />
+					</a>
+					<a href="#">
+						<img src="${properties.gplusimgview @ content='uri'}" />
+					</a>
+					<a href="#">
+						<img src="${properties.instagramimgview @ content='uri'}" />
+					</a>
+					<a href="#">
+						<img src="${properties.linkedinimgview @ content='uri'}" />
+					</a>
+				</span>
+			</div>
+		</div>
+		<div class="footer-menu">
+			<div class="">
+				<div class="row flex-cont">
+					<div class="col-md-8 col-xs-12 ftr-left">
+						<div class="row">
+							<div class="col-md-3 col-xs-6">
+								<h5>${properties.title1txtlabel @ content='styleToken'}</h5>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+							</div>
+							<div class="col-md-3 col-xs-6">
+								<h5>${properties.title2txtlabel @ content='styleToken'}</h5>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+							</div>
+							<div class="col-md-3 col-xs-6">
+								<h5>${properties.title3txtlabel @ content='styleToken'}</h5>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+							</div>
+							<div class="col-md-3 col-xs-6">
+								<h5>${properties.title4txtlabel @ content='styleToken'}</h5>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+								<p>
+									<a href="#">${properties.subtitletxtlabel @ content='styleToken'}</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12 ftr-right">
+						<div class="row">
+							<div class="col-md-5 col-xs-5">
+								<div class="footer-logo">
+									<img src="${properties.logoimageview @ content='uri'}" />
+								</div>
+							</div>
+							<div class="col-md-2 col-xs-2">
+								<div class="footer-divider"></div>
+							</div>
+							<div class="col-md-5 col-xs-5">
+								<div class="footer-brand">
+									<img src="${properties.awardimageview @ content='uri'}" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-nav">
+			<ul>
+				<li>
+					<a target="_blank" href="https://www.bayer.com/en/contact.aspx">${properties.contactustxtlabel @ content='html'}</a>
+				</li>
+				<li>
+					<a href="#">${properties.termsandcondtxtlabel @ content='html'}</a>
+				</li>
+				<li>
+					<a href="#">${properties.privacytxtlabel @ content='html'}</a>
+				</li>
+				<li>
+					<a href="#">${properties.sitemaptxtlabel @ content='html'}</a>
+				</li>
+                <li>
+					<a target="_blank" href="https://www.samplestore.com/site/faq">${properties.faqtxtlabel @ content='html'}</a>
+				</li>
+			</ul>
+		</div>
+		<div class="copyright">&copy; 2018 GSK group of companies. All rights reserved.</div>
+	</footer>
+</section>

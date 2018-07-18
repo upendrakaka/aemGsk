@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Footer Dialog"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    mode="edit">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/foundation/container">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/layouts/tabs"
+                    type="nav"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <signup
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Sign Up&#xa;"
+                        sling:resourceType="granite/ui/components/foundation/section">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <fontcolor
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Sign up Font"
+                                        sling:resourceType="/apps/GSK2App/components/content/custom-components/custom-colorpicker"
+                                        fieldLabel="Font Color"
+                                        name="./fontcolorsignup"/>
+                                    <text
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Sign up Text"
+                                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                        fieldLabel="Font"
+                                        name="./textsignup"/>
+                                    <backgroundcolor
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="BG Color"
+                                        sling:resourceType="/apps/GSK2App/components/content/custom-components/custom-colorpicker"
+                                        fieldLabel="Background Color"
+                                        name="./bgcolorsignup"/>
+                                    <buttoncolor
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Sign up Button color"
+                                        sling:resourceType="/apps/GSK2App/components/content/custom-components/custom-colorpicker"
+                                        fieldLabel="Button Color"
+                                        name="./btncolorsignup"/>
+                                    <buttonfont
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Sign up Button font"
+                                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                        fieldLabel="Button Font"
+                                        name="./btnfonttxtsignup"/>
+                                    <buttonbgcolor
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Sign up Btn BG color"
+                                        sling:resourceType="/apps/GSK2App/components/content/custom-components/custom-colorpicker"
+                                        fieldLabel="Button BG Color"
+                                        name="./btnbgcolorsignup"/>
+                                    <labelbgcolor
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Sign up Label color"
+                                        sling:resourceType="/apps/GSK2App/components/content/custom-components/custom-colorpicker"
+                                        fieldLabel="Label BG color"
+                                        name="./lblbgcolorsignup"/>
+                                </items>
+                            </column>
+                        </items>
+                    </signup>
+                    <followus
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Follow Us"
+                        sling:resourceType="granite/ui/components/foundation/section">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <fbimageview
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                        fieldLabel="Facebook :"
+                                        name="./facebookimgview"/>
+                                    <twtimageview
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                        fieldLabel="Twitter :"
+                                        name="./twitterimgview"/>
+                                    <gplusimageview
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                        fieldLabel="Google + :"
+                                        name="./gplusimgview"/>
+                                    <instagramimageview
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                        fieldLabel="Instagram :"
+                                        name="./instagramimgview"/>
+                                    <linkedinImageview
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                        fieldLabel="Linked In :"
+                                        name="./linkedinimgview"/>
+                                    <followlabletext
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                        fieldLabel="Text Field"
+                                        name="./lblfollowustxt"/>
+                                    <backgroundcolor
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="BG Color"
+                                        sling:resourceType="/apps/GSK2App/components/content/custom-components/custom-colorpicker"
+                                        fieldLabel="Background Color"
+                                        name="./bgcolorfollowus"/>
+                                    <fontcolor
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Follow us Font"
+                                        sling:resourceType="/apps/GSK2App/components/content/custom-components/custom-colorpicker"
+                                        fieldLabel="Font Color"
+                                        name="./fontcolorfollowus"/>
+                                </items>
+                            </column>
+                        </items>
+                    </followus>
+                    <grouptitle
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Group Title"
+                        sling:resourceType="granite/ui/components/foundation/section">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <title1
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                        fieldLabel="Title 1"
+                                        name="./title1txtlabel"/>
+                                    <title2
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                        fieldLabel="Title 2"
+                                        name="./title2txtlabel"/>
+                                    <title3
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                        fieldLabel="Title 3"
+                                        name="./title3txtlabel"/>
+                                    <title4
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                        fieldLabel="Title 4"
+                                        name="./title4txtlabel"/>
+                                    <subtitle
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                        fieldLabel="Sub Title :"
+                                        name="./subtitletxtlabel"/>
+                                    <logo
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                        fieldLabel="Logo:"
+                                        name="./logoimageview"/>
+                                    <awardimage
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                        fieldLabel="AwardImage:"
+                                        name="./awardimageview"/>
+                                    <backgroundcolor
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="BG Color"
+                                        sling:resourceType="/apps/GSK2App/components/content/custom-components/custom-colorpicker"
+                                        fieldLabel="Background Color"
+                                        name="./bgcolorgroup"/>
+                                    <fontcolor
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Follow us Font"
+                                        sling:resourceType="/apps/GSK2App/components/content/custom-components/custom-colorpicker"
+                                        fieldLabel="Font Color"
+                                        name="./fontcolorgroup"/>
+                                </items>
+                            </column>
+                        </items>
+                    </grouptitle>
+                    <footer_navbar
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Footer Navigation"
+                        sling:resourceType="granite/ui/components/foundation/section">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <contactus
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                        fieldLabel="Title 1:"
+                                        name="./contactustxtlabel"/>
+                                    <termsandconditions
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                        fieldLabel="Title 2:"
+                                        name="./termsandcondtxtlabel"/>
+                                    <privacyandcookies
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                        fieldLabel="Title 3:"
+                                        name="./privacytxtlabel"/>
+                                    <sitemap
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                        fieldLabel="Title 4:"
+                                        name="./sitemaptxtlabel"/>
+                                    <fontcolor
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Follow us Font"
+                                        sling:resourceType="/apps/GSK2App/components/content/custom-components/custom-colorpicker"
+                                        fieldLabel="Font Color"
+                                        name="./fontcolorfooter"/>
+                                    <backgroundcolor
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="BG Color"
+                                        sling:resourceType="/apps/GSK2App/components/content/custom-components/custom-colorpicker"
+                                        fieldLabel="Background Color"
+                                        name="./bgcolorfooter"/>
+                                    <faq
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                        fieldLabel="Title 4:"
+                                        name="./faqtxtlabel"/>
+                                </items>
+                            </column>
+                        </items>
+                    </footer_navbar>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

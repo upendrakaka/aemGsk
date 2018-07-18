@@ -1,0 +1,30 @@
+<sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}" data-sly-call="${clientLib.all @ categories=['article.card.tile']}" />
+<style>
+ /****** DESKTOP *******/
+   @media only screen and (min-width: 64.063em) {
+
+   }
+
+   /****** IPAD *******/
+   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+   }
+
+/****** MOBILE *******/
+   @media only screen and (max-width: 480px), only screen and (max-device-width: 480px), only screen and (max-device-height: 480px) {
+
+   }
+</style>
+<div class="container" id="artile-card-tile">
+      <sly data-sly-test="${properties.articleCardTileViewType == 'typeone' || properties.articleCardTileViewType == null}">
+         <sly data-sly-include="partials/typeone.html" data-sly-unwrap/>
+      </sly>
+
+<sly data-sly-test="${properties.articleCardTileViewType != 'typeone'}">
+<div class="row">
+      <sly data-sly-test="${properties.articleCardTileViewType == 'typetwo'}">
+         <sly data-sly-include="partials/typetwo.html" data-sly-unwrap/>
+      </sly>
+</div>
+</sly>
+</div>

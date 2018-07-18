@@ -1,0 +1,91 @@
+/* Carousel CSS */
+
+.carousel {
+    background: rgba(213, 209, 206, 0.2);
+    padding: 50px 0;
+}
+.carousel-control.left,
+.carousel-control.right {
+    background: transparent;
+    opacity: inherit;
+}
+.carousel-indicators {
+    bottom: 5px;
+}
+.carousel-indicators li {
+    border: 1px solid #f36633;
+    height: 12px;
+    width: 12px;
+}
+.carousel-indicators .active {
+    background: #f36633;
+    margin: 1px;
+}
+.carousel-inner .item img {
+    float: right;
+}
+.carousel .carousel-text {
+    margin-left: 15px;
+    width: 80%;
+}
+.carousel-text h4, .carousel-text h1, .carousel-text h5 {
+    color: #544f40;
+    font-size: 24px;
+    font-weight: bold;
+}
+.carousel-text h1 {
+    font-size: 50px;
+    margin-top: 10px;
+}
+.carousel-text p {
+    color: #544f40;
+    font-size: 16px;
+}
+.carousel .carousel-text button {
+    margin-top: 10px;
+    width: 175px;
+}
+.glyphicon-chevron-left:before,
+.glyphicon-chevron-right:before {
+    content: '';
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-inner .item img {
+        float: none;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .carousel .carousel-text {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .carousel-text h4 {
+        font-size: 12px;
+    }
+    .carousel-text h1 {
+        font-size: 20px;
+    }
+    .carousel-text h5 {
+        font-size: 13px;
+    }
+    .carousel-text p {
+        font-size: 12px;
+    }
+    .carousel .carousel-text button {
+        font-weight: normal;
+        height: 30px;
+        margin-top: 5px;
+        width: 126px;
+    }
+    .carousel-control .glyphicon-chevron-left img,
+    .carousel-control .glyphicon-chevron-right img {
+        width: 50%;
+    }
+    .carousel-indicators li,
+    .carousel-indicators .active {
+        height: 10px;
+        width: 10px;
+    }
+}

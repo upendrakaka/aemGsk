@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="crate a artical details template"
+    jcr:primaryType="cq:Template"
+    jcr:title="Articales Details"
+    allowedPaths="[/content(/.*)?]"
+    ametDesc="So, when exactly do spring allergies start? Depending on where you live, spring allergy season can start as early as February and last well into the summer months.1"
+    ametSubt="Lorem Ipsum amet"
+    bimageTitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    bottomimage="/content/dam/GSK/details_image/video-img.png"
+    conseqSubt="commodo consequat"
+    consequatDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. &#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. &#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/p> &#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;p>enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. &#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+    logo="/content/dam/GSK/details_image/rectangle-icon.png"
+    ranking="{Long}100"
+    tagDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. &#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. &#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/p> &#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;p>enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. &#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+    tagSubt="Tags:"
+    temporDesc="During late winter and early spring, dormant trees come back to life and start releasing pollen into the air—making tree pollen the top trigger. &#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Certain types of trees produce high amounts of allergy-triggering pollen. These include oak, ash, birch, elm, hickory, sycamore, and walnut.&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;2 While you don’t need to go on a major landscaping effort to steer clear of these trees, &#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;you’ll at least know what might be "
+    temporSubt="sed do eiusmod tempor"
+    timageTitle="5 WAYS TO BE PREPARED FOR SPRING ALLERGIES."
+    topimage="/content/dam/GSK/details_image/article-banner.png">
+    <jcr:content
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="components/content/articlesDetails"/>
+</jcr:root>

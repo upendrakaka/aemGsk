@@ -1,0 +1,172 @@
+/* Import CSS Files */
+
+@import url("components/navigation.css");
+@import url("components/button.css");
+@import url("components/footer.css");
+@import url("components/carousel.css");
+@import url("components/article.css");
+@import url("components/video.css");
+@import url("components/overrides.css");
+
+
+/* Common Styles */
+body {
+	font-family: Arial,Helvetica,sans-serif;
+}
+ol, ul, li {
+	list-style: none;
+}
+
+.body-content {
+	margin-top: 199px;
+}
+.breadcrumb {
+    background: #F7F6F5;
+    border-radius: inherit;
+    margin-bottom: 0;
+}
+.breadcrumb ul {
+    margin-bottom: 0;
+    padding: 0;
+}
+.breadcrumb ul li {
+    color: #544f40;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 10px;
+}
+.breadcrumb ul li:first-child {
+    padding-left: 0;
+}
+.breadcrumb ul li a {
+    color: #147189;
+}
+
+/* Article details CSS */
+
+.article-details,
+.article-details h1,
+.article-details h2,
+.triangle-sec {
+    display: inline-block;
+    width: 100%;
+}
+.article-details h1,
+.article-details h2,
+.video-section h3 {
+    text-transform: uppercase;
+}
+.article-banner {
+    margin-bottom: 30px;
+}
+.article-banner img {
+    height: 450px;
+    width: 100%;
+}
+.article-details h1 {
+    color: #544f40;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.article-details p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.tags-txt {
+    font-size: 20px;
+    font-weight: bold;
+}
+.tags-link a {
+    color: #147189;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.article-details h2 {
+    color: #544f40;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.triangle-sec {
+    margin-bottom: 25px;
+}
+.triangle-sec .triangle-img,
+.triangle-sec .triangle-txt {
+    display: inline-block;
+    vertical-align: top;
+}
+.triangle-sec .triangle-txt {
+    font-size: 16px;
+    padding-left: 20px;
+    width: 75%;
+} 
+.triangle-sec .triangle-txt a {
+    color: #147189;
+    font-weight: bold;
+}
+.video-section {
+    display: table;
+    margin: 0 auto;
+    width: 64%;
+}
+.video-section h3 {
+    color: #544f40;
+    font-size: 30px;
+    font-weight: bold;  
+    margin: 45px 0;
+    text-align: center;
+}
+
+.productList {
+	margin-top: 50px;
+}
+
+@media screen and (max-width: 767px) {
+    .article-banner img {
+        height: auto;
+    }
+    .article-banner {
+        margin-bottom: 20px;
+    }
+    .article-details h1 {
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .article-details p {
+        font-size: 14px;
+    }
+    .tags-txt {
+        font-size: 16px;
+    }
+    .tags-link a {
+        font-size: 14px;
+    }
+    .article-details h2,
+    .article-details h3 {
+        font-size: 16px;
+    }
+    .triangle-img {
+        text-align: center;
+        margin: 0 auto 10px;
+        width: 100%;
+    }
+    .triangle-sec .triangle-txt {
+        font-size: 14px;
+        padding: 0;
+        width: 100%;
+    }
+    .video-section {
+        width: 100%;
+    }
+    .video-section h3 {
+        margin: 10px 0 25px 0;
+    }
+}
+
+.border-gsk div{
+	border:1px solid #e3e3e3;
+    }

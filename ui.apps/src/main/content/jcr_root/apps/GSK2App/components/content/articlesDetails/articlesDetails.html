@@ -1,0 +1,65 @@
+<sly  data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"  data-sly-call="${clientLib.all @ categories=['gsk.dialog.list']}"/>
+
+<!doctype html> 
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Article Details</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">  
+  <link rel="stylesheet" href="css/style.css" type="text/css">  
+</head>
+<body>
+
+<section class="container-fluid"> 
+
+	<section class="body-content" style="margin-top: 50px; margin-bottom: 50px;">
+		<div class="breadcrumb">
+			<div class="container">
+				<ul>
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>/</li>
+					<li>
+						<a href="#">Article List</a>
+					</li>
+					<li>/</li>
+					<li>${properties.timageTitle @ context='html'}</li>
+				</ul>
+			</div>
+		</div>
+		<div class="article-banner">
+			<img src="${properties.topimage @ context='html'}"/>
+		</div>
+		<div class="container">
+			<div class="article-details">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<h1>${properties.timageTitle @ context='html'}</h1>
+						<p class="tags"><span class="tags-txt">${properties.tagSubt @ context='html'}</span><span class="tags-link"><a href="#">Featured / Seasonal Allergies / Spring Allergies / Outdoor Allergies / Living With Allergies</a></span></p>
+						<p>${properties.tagDesc @ context='html'}</p>
+						<h2>${properties.ametSub @ context='html'}</h2>
+						<p>${properties.ametDesc @ context='html'}</p>
+						<h2>${properties.temporSubt @ context='html'}</h2>
+						<div class="triangle-sec">
+							<span class="triangle-img"><img src="${properties.logo @ context='html'}" class="" /></span>
+							<span class="triangle-txt">${properties.temporDesc @ context='html'}<a href="#">triggering your allergy symptoms.</a></span>
+						</div>
+						<h2>${properties.conseqSubt @ context='html'}</h2>
+						<p>${properties.consequatDesc @ context='html'}</p>
+						<div class="video-section">
+							<h3>${properties.bimageTitle @ context='html'}</h3>
+							<p><img src="${properties.bottomimage @ context='html'}"/></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</section> 
+</body>
+
+</html>

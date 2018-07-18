@@ -1,0 +1,106 @@
+/* Bootstrap Overrides Styles */
+
+/* Nav bar changes */
+.navbar-default {
+    background-color: none;
+    border-color: none;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+.navbar-collapse {
+	background-color: #f36636;
+    border-color: #f36636;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: #fff;
+}
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover {
+	background-color: #fff;
+    border-color: #fff;
+	color: #f36636;
+}
+
+.dropdown-menu {
+	border: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	color: #544f40;
+	font-size: 14px;
+}
+
+@media screen and (max-width: 767px) {
+	.navbar-default .navbar-toggle:focus, 
+	.navbar-default .navbar-toggle:hover {
+		background-color: transparent;
+	}
+	.navbar-default .navbar-toggle {
+		border-color: transparent;
+	}
+	.navbar-toggle {
+		float: left;
+		margin: 10px 0 0 0;
+		padding: 9px 15px;
+		width: 15%;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #544f40;
+	}
+	.navbar-toggle .icon-bar {
+		display: block;
+		width: 30px;
+		height: 3px;
+		border-radius: 1px;
+		margin-bottom: 5px;
+	}
+	.navbar-middle .navbar-brand {
+		height: 60px;
+		padding: 10px 0;
+		width: 70%;
+	}
+	.navbar-brand>img {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.navbar-fixed-top .navbar-collapse {
+		height: 100vh;
+		max-height: inherit !important;
+		position: absolute;
+		width: 100%;
+	}
+	.navbar-right {
+		float: right;
+		margin: 20px 15px;
+	}
+	.navbar-collapse {
+		background-color: rgba(213, 209, 206, 0.2);
+	}
+	.navbar-default .navbar-nav>li>a,
+	.navbar-default .navbar-bottom .navbar-nav>li>a {
+		color: #544f40;
+		display: inline-block;
+		font-size: 15px;
+		font-weight: normal;
+		line-height: inherit;
+		padding: 15px 15px;
+		vertical-align: bottom;
+		width: 100%;
+	}
+	.navbar-nav>li>a span {
+		float: left;
+	}
+	.navbar-nav>li>a .caret {
+		float: right;
+	}
+	.navbar-default .navbar-nav>.active>a,
+	.navbar-default .navbar-nav>.active>a:hover {
+		background-color: transparent;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, 
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+		outline: none;
+	}
+}

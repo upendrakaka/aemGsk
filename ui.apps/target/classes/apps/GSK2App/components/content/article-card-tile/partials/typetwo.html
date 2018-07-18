@@ -1,0 +1,71 @@
+<sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}" data-sly-call="${clientLib.all @ categories=['article.card.tile']}" />
+<style>
+
+</style>
+<section class="container-fluid"> 
+	
+	<section class="body-content container" style="margin-top: 250px; margin-bottom: 50px;">
+		<div class="article-card">
+        <div class="row">
+			<div class="col-md-4 col-xs-12">
+            <div class="list-details article-card-type1">
+            <div class="list-details-img">
+							<img src="${properties.articlecardImage1}" class="img-responsive" />
+						</div>
+                        <div class="list-details-cont">
+							<h4>${properties.articlecardTitle1 @ context='html'}</h4>
+							<p class="list-desc">${properties.articlecardDescription1 @ context='html'}</p>
+							<p>Tags: <br /> <a href="${properties.articlecardtagLink1 @ context='html'}">${properties.artilcecardtagLabel1 @ context='html'}</a></p>
+						</div>
+                        <div class="list-details-btn">
+                        <div class="text-center">
+                        <button type="button" class="btn-structure btn-primary-orange">${properties.artilcecardbuttonLabel1 @ context='html'}</button>
+						 </div>
+                          </div>
+                        
+             </div>
+            </div>
+            <div class="col-md-8 col-xs-12">
+					<div class="list-details article-card-type2">
+						<div class="list-details-img">
+							<img src="${properties.articlecardImage2}" class="img-responsive" />
+						</div>
+						<div class="list-details-cont">
+							<h4>${properties.articlecardTitle2 @ context='html'}</h4>
+							<p class="list-desc">${properties.articlecardDescription2 @ context='html'}</p>
+							<p>Tags: <br /> <a href="${properties.articlecardtagLink2 @ context='html'}">${properties.artilcecardtagLabel2 @ context='html'}</a></p>
+						</div>
+						<div class="list-details-btn">
+                        <div class="text-center">
+                        <button type="button" class="btn-structure btn-primary-orange">${properties.artilcecardbuttonLabel2 @ context='html'}</button>
+                         </div>
+						 </div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<div class="list-details article-card-type3">
+						<div class="col-md-4 col-sm-4 col-xs-6">
+							<img src="${properties.articlecardImage3}" class="img-responsive" />
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-6">
+							<div class="list-details-cont">
+								<h4>${properties.articlecardTitle3 @ context='html'}</h4>
+								<p class="list-desc">${properties.articlecardDescription3 @ context='html'}</p>
+								<p>Tags: <br /> 
+								<a href="${properties.articlecardtagLink3 @ context='html'}">${properties.artilcecardtagLabel3 @ context='html'}</a></p>
+							</div>
+							<div class="list-details-btn">
+								<div class="text-left"><button type="button" class="btn-structure btn-primary-orange">${properties.artilcecardbuttonLabel3 @ context='html'}</button></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+
+	</section>
+
+	
+</section>

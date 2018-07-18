@@ -1,0 +1,186 @@
+<sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}" data-sly-call="${clientLib.all @ categories=['gsk_dialog_footer']}" />
+<style>
+	.cont{
+		background-color: ${properties.headerBgColor @ context='styleToken'};
+        background: ${properties.image @ context='styleToken'};
+
+    }
+    .font{
+    	font-size: ${properties.fontsize @ context='html'};
+    }
+    .navbar-top em{color: ${properties.fontcolor @ context='styleToken'};}
+</style>
+
+<html lang="en">
+
+<body>
+<section class="container-fluid"> 
+	<header>
+		<div class="navbar megaMenu navbar-default navbar-fixed-top">
+			<div class="navbar-top hidden-xs">
+				<div class="container">
+					<div class="pull-right">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="${properties.image1 @ context='html'}" /><em>${properties.text1 @ context='html'}</em>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="${properties.image2 @ context='html'}" /><em>${properties.text2 @ context='html'}</em>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="${properties.image3 @ context='html'}" />
+									<select name="languages">
+									  <option value="Global (EN)">${properties.text3 @ context='html'}</option>
+									  <option value="CH">CH</option>
+									  <option value="JP">JP</option>
+									  <option value="UR">UR</option>
+									</select>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="${properties.image4 @ context='html'}" /><em>${properties.text4 @ context='html'}</em>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="navbar-middle">
+				<div class="container">
+					<div class="navbar-header">
+					  <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+					  <a href="#" class="navbar-brand"><img src="${properties.image5 @ context='html'}" /></a>
+					  <a href="#" class="visible-xs navbar-right"><img src="${properties.image7 @ context='html'}" /></a>
+					</div>
+					<div class="pull-right">
+						<ul class="nav navbar-nav hidden-xs">
+							<li>
+								<a href="#">${properties.text5 @ context='html'}</a>
+							</li>
+							<li>
+								<a href="#">${properties.text6 @ context='html'}</a>
+							</li>
+							<li>
+								<a href="#">${properties.text7 @ context='html'}</a>
+							</li>
+							<li>
+								<a href="#"><img src="${properties.image6 @ context='html'}" /></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="navbar-collapse-1" class="navbar-collapse collapse navbar-bottom">
+				<div class="container"> 
+					<ul class="nav navbar-nav hidden-xs">
+						<li class="dropdown">
+							<p class="btn btn-default dropdown-toggle" data-toggle="dropdown">Dropdown List
+							<span class="caret"></span></p>
+							<ul class="dropdown-menu">
+							  <li><a tabindex="-1" href="#">HTML</a></li>
+							  <li><a tabindex="-1" href="#">CSS</a></li>
+							  <li class="dropdown-submenu">
+								<a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+								  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+								  <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+								  <li class="dropdown-submenu">
+									<a class="test" href="#">Another dropdown <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+									  <li><a href="#">3rd level dropdown</a></li>
+									  <li><a href="#">3rd level dropdown</a></li>
+									</ul>
+								  </li>
+								</ul>
+							  </li>
+							</ul>
+						</li>
+						<!-- Accordion demo -->
+						<li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Accordion<b class="caret"></b></a>
+						  <ul class="dropdown-menu">
+							<li>
+							  <div class="megaMenu-content">
+								<div class="row">
+								  <div id="accordion" class="panel-group">
+									<div class="panel panel-default">
+									  <div class="panel-heading">
+										<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Collapsible Group Item #1</a></h4>
+									  </div>
+									  <div id="collapseOne" class="panel-collapse collapse in">
+										<div class="panel-body">Ut consectetur ullamcorper purus a rutrum. Etiam dui nisi, hendrerit feugiat scelerisque et, cursus eu magna. </div>
+									  </div>
+									</div>
+									<div class="panel panel-default">
+									  <div class="panel-heading">
+										<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Collapsible Group Item #2</a></h4>
+									  </div>
+									  <div id="collapseTwo" class="panel-collapse collapse">
+										<div class="panel-body">Nullam pretium fermentum sapien ut convallis. Suspendisse vehicula, magna non tristique tincidunt, massa nisi luctus tellus, vel laoreet sem lectus ut nibh. </div>
+									  </div>
+									</div>
+									<div class="panel panel-default">
+									  <div class="panel-heading">
+										<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Collapsible Group Item #3</a></h4>
+									  </div>
+									  <div id="collapseThree" class="panel-collapse collapse">
+										<div class="panel-body">Praesent leo quam, faucibus at facilisis id, rhoncus sit amet metus. Sed vitae ipsum non nibh mattis congue eget id augue. </div>
+									  </div>
+									</div>
+								  </div>
+								</div>
+							  </div>
+							</li>
+						  </ul>
+						</li>
+						<!-- Classic dropdown -->
+						<li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Classic<b class="caret"></b></a>
+						  <ul role="menu" class="dropdown-menu">
+							<li class="dropdown">
+								<a tabindex="-1" href="#" data-toggle="dropdown" class="dropdown-toggle"> Action </a>
+								<ul role="menu" class="dropdown-menu">
+									<li><a tabindex="-1" href="#"> Another action </a></li>
+									<li><a tabindex="-1" href="#"> Something else here </a></li>
+									<li><a tabindex="-1" href="#"> Another action </a></li>
+									<li><a tabindex="-1" href="#"> Something else here </a></li>
+								</ul>
+							</li>
+							<li><a tabindex="-1" href="#"> Another action </a></li>
+							<li><a tabindex="-1" href="#"> Something else here </a></li>
+							<li><a tabindex="-1" href="#"> Another action </a></li>
+							<li><a tabindex="-1" href="#"> Something else here </a></li>
+							<li><a tabindex="-1" href="#"> Another action </a></li>
+							<li><a tabindex="-1" href="#"> Something else here </a></li>
+						  </ul>
+						</li>
+						<!-- Pictures -->
+						<li class="dropdown megaMenu-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Pictures<b class="caret"></b></a>
+						  <ul class="dropdown-menu">
+							<li>
+							  <div class="megaMenu-content">
+								<div class="row">
+								  <div class="col-xs-6 col-sm-2"><a href="#" class="thumbnail"><img alt="150x190" src="/content/dam/GSK/image/190.jpg"></a></div>
+								  <div class="col-xs-6 col-sm-2"><a href="#" class="thumbnail"><img alt="150x190" src="/content/dam/GSK/image/190.jpg"></a></div>
+								  <div class="col-xs-6 col-sm-2"><a href="#" class="thumbnail"><img alt="150x190" src="/content/dam/GSK/image/190.jpg"></a></div>
+								  <div class="col-xs-6 col-sm-2"><a href="#" class="thumbnail"><img alt="150x190" src="/content/dam/GSK/image/190.jpg"></a></div>
+								  <div class="col-xs-6 col-sm-2"><a href="#" class="thumbnail"><img alt="150x190" src="/content/dam/GSK/image/190.jpg"></a></div>
+								  <div class="col-xs-6 col-sm-2"><a href="#" class="thumbnail"><img alt="150x190" src="/content/dam/GSK/image/190.jpg"></a></div>
+								</div>
+							  </div>
+							</li>
+						  </ul>
+						</li>
+					</ul>
+
+				</div>
+		  </div>
+		</div>
+	</header>
+</section> 
+</body>
+</html>

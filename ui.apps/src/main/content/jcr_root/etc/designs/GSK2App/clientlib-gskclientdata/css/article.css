@@ -1,0 +1,63 @@
+/* Article CSS */
+
+.article-section {
+    display: inline-block;
+    width: 100%;
+}
+.article-section h1 {
+    color: #000;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.article-img {
+    position: relative;
+    margin-bottom: 30px;
+}
+.article-img p {
+    margin-bottom: 0;
+}
+.article-text {
+    background: rgba(0, 0, 0, 0.4);
+    bottom: 0;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 23px 20px;
+    position: absolute;
+}
+.article-text .hdr,
+.article-text .desc {
+    display: inline-block;
+    width: 100%;
+}
+.article-text .hdr {
+    font-size: 24px;
+    font-weight: bold;
+}
+.article-text .desc {
+    font-weight: normal;
+}
+.article-text .desc a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.article-text .desc a:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .article-section h1 {
+        font-size: 20px;
+    }
+    .article-text {
+        padding: 15px;
+    }
+    .article-text .hdr {
+        font-size: 16px;
+    }
+    .article-text .desc {
+        font-size: 12px;
+    }
+}

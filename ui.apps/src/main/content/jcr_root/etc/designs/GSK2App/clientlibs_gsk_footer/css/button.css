@@ -1,0 +1,72 @@
+/* Button CSS */
+
+.btn-structure,
+.btn-primary-dropdown,
+.btn-primary-button,
+.btn-small-structure,
+.btn-small-primary-dropdown,
+.btn-small-primary-button {
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	height: 50px;
+	width: 150px;
+}
+.btn-primary-dropdown,
+.btn-primary-button,
+.btn-secondary-dropdown,
+.btn-secondary-button,
+.btn-small-primary-dropdown,
+.btn-small-primary-button,
+.btn-small-secondary-dropdown,
+.btn-small-secondary-button {
+	width: 162px;
+}
+.btn-primary-orange,
+.btn-primary-orange:hover,
+.btn-small-primary-orange,
+.btn-small-primary-orange:hover {
+	background: #f36633;
+	border: 1px solid #f36633;
+	color: #fff;
+}
+.btn-primary-orange:hover,
+.btn-small-primary-orange:hover {
+	background: #de5c2d;
+}
+.btn-primary-disabled,
+.btn-small-primary-disabled {
+	background: #d5d1ce;
+	border: 1px solid #d5d1ce;
+	color: #fff;
+}
+.btn-secondary-orange,
+.btn-secondary-orange:hover,
+.btn-small-secondary-orange,
+.btn-small-secondary-orange:hover {
+	background: #fff;
+	border: solid 2px #f36633;
+	color: #f36633;
+}
+.btn-secondary-orange:hover,
+.btn-small-secondary-orange:hover {
+	background: #de5c2d;
+	color: #fff;
+}
+.btn-secondary-disabled,
+.btn-small-secondary-disabled {
+	background: #fff;
+	border: solid 2px #d5d1ce;
+	color: #d5d1ce;
+}
+.btn-secondary-dropdown,
+.btn-secondary-button,
+.btn-small-secondary-dropdown,
+.btn-small-secondary-button {
+	border: 1px solid;
+}
+.btn-small-structure,
+.btn-small-primary-dropdown,
+.btn-small-primary-button {
+	height: 40px;
+}
