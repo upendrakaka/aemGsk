@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.aem.gsk.core.servlets.QueryWithServlet">
+    <OCD id="com.aem.gsk.core.servlets.QueryWithServlet" name="%com.aem.gsk.core.servlets.QueryWithServlet.name" description="%com.aem.gsk.core.servlets.QueryWithServlet.description">
+        <AD id="sling.auth.requirements" type="String" default="-/bin/myQuery" name="%com.aem.gsk.core.servlets.QueryWithServlet.sling.auth.requirements.name" description="%com.aem.gsk.core.servlets.QueryWithServlet.sling.auth.requirements.description"/>
+    </OCD>
+    <Designate pid="com.aem.gsk.core.servlets.QueryWithServlet">
+        <Object ocdref="com.aem.gsk.core.servlets.QueryWithServlet"/>
+    </Designate>
+</metatype:MetaData>

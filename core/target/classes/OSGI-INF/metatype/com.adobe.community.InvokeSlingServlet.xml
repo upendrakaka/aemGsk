@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.adobe.community.InvokeSlingServlet">
+    <OCD id="com.adobe.community.InvokeSlingServlet" name="%com.adobe.community.InvokeSlingServlet.name" description="%com.adobe.community.InvokeSlingServlet.description"/>
+    <Designate pid="com.adobe.community.InvokeSlingServlet">
+        <Object ocdref="com.adobe.community.InvokeSlingServlet"/>
+    </Designate>
+</metatype:MetaData>

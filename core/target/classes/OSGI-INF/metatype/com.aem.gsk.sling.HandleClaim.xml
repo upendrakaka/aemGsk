@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.aem.gsk.sling.HandleClaim">
+    <OCD id="com.aem.gsk.sling.HandleClaim" name="%com.aem.gsk.sling.HandleClaim.name" description="%com.aem.gsk.sling.HandleClaim.description">
+        <AD id="sling.auth.requirements" type="String" default="-/bin/mySearchServlet" name="%com.aem.gsk.sling.HandleClaim.sling.auth.requirements.name" description="%com.aem.gsk.sling.HandleClaim.sling.auth.requirements.description"/>
+    </OCD>
+    <Designate pid="com.aem.gsk.sling.HandleClaim">
+        <Object ocdref="com.aem.gsk.sling.HandleClaim"/>
+    </Designate>
+</metatype:MetaData>
