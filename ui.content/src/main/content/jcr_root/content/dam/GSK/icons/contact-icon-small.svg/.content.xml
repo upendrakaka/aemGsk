@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ad179e1c-f94b-4d81-919e-e82f20c7fc1e">
+    <jcr:content
+        dam:relativePath="GSK/icons/contact-icon-small.svg"
+        jcr:lastModified="{Date}2018-07-13T16:24:29.775+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2018-07-11T19:33:19.712+05:30"
+            dam:sha1="bd61f252e9a36cc147e016594974224b2db5482a"
+            dam:size="{Long}303"
+            dc:format="image/svg+xml"
+            dc:modified="{Date}2018-07-11T19:33:18.948+05:30"
+            jcr:lastModified="{Date}2018-07-13T16:24:28.713+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

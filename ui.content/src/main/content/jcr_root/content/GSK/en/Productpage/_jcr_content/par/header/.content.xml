@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="My header template"
+    jcr:lastModified="{Date}2018-07-13T21:07:46.355+05:30"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="cq:Template"
+    jcr:title="template"
+    sling:resourceType="GSK2App/components/content/header"
+    fontcolor=""
+    fontsize="18px"
+    headerBgColor=""
+    image="/content/dam/GSKWEB62App/apple.png"
+    image1="/content/dam/GSKWEB62App/icons/search-icon-small.svg"
+    image2="/content/dam/GSKWEB62App/icons/call-icon-small.svg"
+    image3="/content/dam/GSKWEB62App/icons/flag-icon-small.svg"
+    image4="/content/dam/GSKWEB62App/icons/contact-icon-small.svg"
+    image5="/content/dam/GSKWEB62App/logo/logo-flonase.png"
+    image6="/content/dam/GSKWEB62App/logo/logo-gsk.png"
+    image7="/content/dam/GSKWEB62App/icons/search-icon-small.png"
+    info="Hi Welcome to my header page"
+    ranking="{Long}100"
+    text1="Search"
+    text2="Contact us"
+    text3="Global (EN)"
+    text4="Sign in"
+    text5="Sustainability"
+    text6="Healthcare Professionals"
+    text7="Where to Buy">
+    <jcr:content
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="GSK2App/components/content/header"/>
+</jcr:root>
